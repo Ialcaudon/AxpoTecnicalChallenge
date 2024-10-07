@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerTradeApp", "src\PowerTradeApp\PowerTradeApp.csproj", "{2A9B7C0D-0CED-4747-AFBA-C4370ABCA1B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5B82F1A7-167F-41B7-8059-214BE1B60EF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3B58BFDA-1667-498A-A8AD-924185CC90F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerTradeApp.Tests", "tests\PowerTradeApp.Tests\PowerTradeApp.Tests.csproj", "{118F36BC-5A16-426D-AA0C-DD6273532384}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A9B7C0D-0CED-4747-AFBA-C4370ABCA1B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A9B7C0D-0CED-4747-AFBA-C4370ABCA1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A9B7C0D-0CED-4747-AFBA-C4370ABCA1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A9B7C0D-0CED-4747-AFBA-C4370ABCA1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118F36BC-5A16-426D-AA0C-DD6273532384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118F36BC-5A16-426D-AA0C-DD6273532384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118F36BC-5A16-426D-AA0C-DD6273532384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118F36BC-5A16-426D-AA0C-DD6273532384}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A9B7C0D-0CED-4747-AFBA-C4370ABCA1B5} = {5B82F1A7-167F-41B7-8059-214BE1B60EF0}
+		{118F36BC-5A16-426D-AA0C-DD6273532384} = {3B58BFDA-1667-498A-A8AD-924185CC90F1}
+	EndGlobalSection
+EndGlobal

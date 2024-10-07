@@ -1,0 +1,9 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Rider and IDE-related files
+.idea/
+*.sln.iml
+.idea_modules/
+.idea_workspace.xml
